@@ -1,0 +1,26 @@
+# Database files
+students.db
+scores.db
+*.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# OS junk files
+.DS_Store
+Thumbs.db 

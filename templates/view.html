@@ -1,0 +1,12 @@
+<h2>Students List</h2>
+
+<ul>
+    {% for student in students %}
+        <li>
+            {{ student[1] }} (Age: {{ student[2] }})
+            <a href="/delete/{{ student[0] }}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<a href="/">Back</a>
